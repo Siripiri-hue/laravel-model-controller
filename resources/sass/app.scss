@@ -1,1 +1,65 @@
 //
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: #071013;
+    font-size: 2.5rem;
+    color: #A2AEBB;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+main {
+    background-color: #CAD2C5;
+    flex-grow: 1;
+
+    .card {
+        // border: 1px solid pink;
+        color: #2F3E46;
+        margin: 10px auto;
+        padding: 5px;
+        font-family: 'Shadows Into Light Two', cursive;
+        width: fit-content;
+        text-align: center;
+
+        .movie-title {
+            font-size: 1.5rem;
+        }
+
+        .movie-original-title {
+            font-size: 0.9rem;
+        }
+
+        .movie-nationality, .movie-year {
+            font-size: 1rem;
+        }
+
+        .movie-vote {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+footer {
+    background-color: #071013;
+    color: #A2AEBB;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+}
