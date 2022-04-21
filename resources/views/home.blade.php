@@ -1,7 +1,11 @@
 @extends('layouts.standard')
 
+@section('metaTitle', '● MovieDB')
+
 @section('main')
 <main>
-    Qui andranno i titoli dei film
+    @foreach($movies as $element)
+        @dump($element)
+    @endforeach
 </main>
 @endsection
